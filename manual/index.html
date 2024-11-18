@@ -34,17 +34,25 @@
 <body>
     <div class="pdf-container">
         
-        <iframe src="manual.pdf" type="application/pdf"></iframe>
-        
-        <!-- Option 2: Using embed (Alternative) -->
-        <!-- <embed src="your-pdf-file.pdf" width="100%" height="600px" type="application/pdf"> -->
-        
-        <!-- Option 3: Using object (Alternative) -->
-        <!--
-        <object data="your-pdf-file.pdf" type="application/pdf" width="100%" height="600px">
-            <p>Your browser does not support PDF viewing.</p>
-        </object>
-        -->
+        <object
+	data="https://content.sentienhq.com/manual/manual.pdf"
+	type="application/pdf"
+	width="100%"
+	height="100%"
+>
+	<iframe
+		src="https://content.sentienhq.com/manual/manual.pdf"
+		width="100%"
+		height="100%"
+		style="border: none;"
+	>
+		<p>
+			Your browser does not support PDFs.
+			<a href="https://content.sentienhq.com/manual/manual.pdf">Download the PDF Manual</a>
+			.
+		</p>
+	</iframe>
+</object>
     </div>
 
 </body>
